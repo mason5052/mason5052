@@ -2,8 +2,8 @@
 
 **DevSecOps Engineer** | Building secure, scalable infrastructure at enterprise scale
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/masonjkkim/)
-[![Blog](https://img.shields.io/badge/Blog-FF5722?style=flat&logo=blogger&logoColor=white)](https://mason-kim.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/junkukkim/)
+[![Blog](https://img.shields.io/badge/Blog-FF5722?style=flat&logo=blogger&logoColor=white)](https://mason5052.github.io/mason-kim/)
 
 ---
 
@@ -64,8 +64,8 @@
 
 ## Let's Connect
 
-- **LinkedIn**: [linkedin.com/in/masonjkkim](https://www.linkedin.com/in/masonjkkim/)
-- **Blog**: [mason-kim.github.io](https://mason-kim.github.io)
+- **LinkedIn**: [linkedin.com/in/junkukkim](https://www.linkedin.com/in/junkukkim/)
+- **Blog**: [mason5052.github.io/mason-kim](https://mason5052.github.io/mason-kim/)
 - **Email**: Available on LinkedIn
 
 ---
