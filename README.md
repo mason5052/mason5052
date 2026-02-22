@@ -70,14 +70,14 @@ Published attack chain analyses documenting real-world eCommerce attack patterns
 
 <p align="center">
   <a href="https://github.com/mason5052">
-    <img src="https://raw.githubusercontent.com/mason5052/mason5052/output/profile-summary-card-output/0-profile-details.svg" alt="Profile Details">
+    <img src="profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile Details">
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/mason5052">
-    <img src="https://raw.githubusercontent.com/mason5052/mason5052/output/profile-summary-card-output/3-stats.svg" alt="Stats" width="400">
+    <img src="profile-summary-card-output/tokyonight/3-stats.svg" alt="Stats" width="400">
   </a>
   <a href="https://github.com/mason5052">
-    <img src="https://raw.githubusercontent.com/mason5052/mason5052/output/profile-summary-card-output/2-most-commit-language.svg" alt="Top Languages" width="400">
+    <img src="profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Top Languages" width="400">
   </a>
 </p>
