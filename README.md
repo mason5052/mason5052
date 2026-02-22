@@ -1,6 +1,6 @@
 # Mason Kim
 
-DevSecOps / Platform Security Engineer | Kubernetes + Terraform + AWS | CEH + MS Cybersecurity @ Georgia Tech
+**Security Engineer** | Platform security, adversarial defense, and attack chain research
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/junkukkim/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=flat&logo=blogger&logoColor=white)](https://mason5052.github.io/mason-kim/)
@@ -69,6 +69,15 @@ Published attack chain analyses documenting real-world eCommerce attack patterns
 ## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mason5052&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" alt="GitHub Stats" height="165">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mason5052&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165">
+  <a href="https://github.com/mason5052">
+    <img src="https://raw.githubusercontent.com/mason5052/mason5052/output/profile-summary-card-output/0-profile-details.svg" alt="Profile Details">
+  </a>
+</p>
+<p align="center">
+  <a href="https://github.com/mason5052">
+    <img src="https://raw.githubusercontent.com/mason5052/mason5052/output/profile-summary-card-output/3-stats.svg" alt="Stats" width="400">
+  </a>
+  <a href="https://github.com/mason5052">
+    <img src="https://raw.githubusercontent.com/mason5052/mason5052/output/profile-summary-card-output/2-most-commit-language.svg" alt="Top Languages" width="400">
+  </a>
 </p>
