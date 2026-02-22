@@ -13,6 +13,7 @@
 Security tools for adversarial eCommerce environments. I build detection systems, WAF automation, and compliance tooling -- solving real operational problems with open-source code.
 
 - Currently building: [Commerce Abuse Defense v0.3](https://github.com/mason5052/commerce-abuse-defense) -- ML-based anomaly detection for bot scoring
+- Contributing to: [Strix](https://github.com/usestrix/strix) (20K+ stars) -- AI pentesting agents, Windows compatibility and test coverage
 
 ---
 
@@ -32,6 +33,17 @@ Published attack chain analyses documenting real-world eCommerce attack patterns
 
 - **[001: Hidden Product Card-Testing on Shopify](https://github.com/mason5052/commerce-abuse-defense/blob/main/docs/attack-chains/001-hidden-product-card-testing.md)** -- How attackers discover $0 products via API enumeration and use them for card validation. MITRE ATT&CK T1595, T1190.
 - **[002: App-Layer Bot Defense Bypass Patterns](https://github.com/mason5052/commerce-abuse-defense/blob/main/docs/attack-chains/002-app-layer-defense-bypass.md)** -- Why client-side bot mitigation is necessary but insufficient. 5 bypass techniques, multi-layer defense architecture.
+
+---
+
+## Open Source Contributions
+
+Active contributor to security-focused open-source projects:
+
+| Project | Stars | Contributions | Stack |
+|---------|-------|---------------|-------|
+| [Strix](https://github.com/usestrix/strix) | 20K+ | Test coverage, Windows report persistence fix, bug triage | Python, Docker, LLM |
+| [PentAGI](https://github.com/vxcontrol/pentagi) | 6.8K+ | OAuth security fix ([#120](https://github.com/vxcontrol/pentagi/pull/120)), documentation ([#121](https://github.com/vxcontrol/pentagi/pull/121)) | Go, TypeScript, GraphQL |
 
 ---
 
