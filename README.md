@@ -12,6 +12,8 @@
 
 Security tools for adversarial eCommerce environments. I build detection systems, WAF automation, and compliance tooling -- solving real operational problems with open-source code.
 
+- Currently building: [Commerce Abuse Defense v0.3](https://github.com/mason5052/commerce-abuse-defense) -- ML-based anomaly detection for bot scoring
+
 ---
 
 ## Featured Projects
