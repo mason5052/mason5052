@@ -1,6 +1,6 @@
 # Mason Kim
 
-**Security Engineer** | Platform security, adversarial defense, and attack chain research
+DevSecOps / Platform Security Engineer | Kubernetes + Terraform + AWS | CEH + MS Cybersecurity @ Georgia Tech
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/junkukkim/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=flat&logo=blogger&logoColor=white)](https://mason5052.github.io/mason-kim/)
