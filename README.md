@@ -79,20 +79,3 @@ Active contributor to security-focused open-source projects:
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)
 
----
-
-## GitHub Stats
-
-<p align="center">
-  <a href="https://github.com/mason5052">
-    <img src="profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile Details">
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/mason5052">
-    <img src="profile-summary-card-output/tokyonight/3-stats.svg" alt="Stats" width="400">
-  </a>
-  <a href="https://github.com/mason5052">
-    <img src="profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Top Languages" width="400">
-  </a>
-</p>
