@@ -10,9 +10,11 @@
 
 ## What I Build
 
-Security tools for adversarial eCommerce environments. I build detection systems, WAF automation, and compliance tooling -- solving real operational problems with open-source code.
+Security tools and AIOps infrastructure for real operational environments. I build detection systems, AI-powered monitoring pipelines, and WAF automation -- solving real problems with open-source code.
 
-- Currently building: [Commerce Abuse Defense v0.3](https://github.com/mason5052/commerce-abuse-defense) -- ML-based anomaly detection for bot scoring
+- Currently building: [Argus-Ops](https://github.com/mason5052/argus-ops) -- AI-powered K8s monitoring CLI with full detect -> diagnose -> fix pipeline
+- Currently building: [Commerce Abuse Defense](https://github.com/mason5052/commerce-abuse-defense) -- ML-based anomaly detection for bot scoring
+- Contributing to: [PentAGI](https://github.com/vxcontrol/pentagi) (6.8K+ stars) -- autonomous AI pentesting, OAuth security hardening
 - Contributing to: [Strix](https://github.com/usestrix/strix) (20K+ stars) -- AI pentesting agents, Windows compatibility and test coverage
 
 ---
@@ -21,6 +23,7 @@ Security tools for adversarial eCommerce environments. I build detection systems
 
 | Project | Description | Stack |
 |---------|-------------|-------|
+| [Argus-Ops](https://github.com/mason5052/argus-ops) | AI-powered infrastructure monitoring CLI. Full AIOps loop: detect -> AI diagnose -> propose fix -> approve -> execute -> verify. Pluggable LLM via LiteLLM (OpenAI, Anthropic, Ollama, 100+ providers). v0.1.0, 51 tests, CI. | Python, Kubernetes, LiteLLM, Click |
 | [Commerce Abuse Defense](https://github.com/mason5052/commerce-abuse-defense) | Bot abuse detection and scoring tool with WAF rule generation. 6 detection rules, weighted scoring (0-100), auto-generates Cloudflare and AWS WAF rules. v0.2.1, 60 tests, CI. | Python, Shopify, Cloudflare, AWS WAF |
 | [K8s Security Baseline](https://github.com/mason5052/k8s-security-baseline) | CIS Benchmark v1.8.0 audit automation with RBAC templates, network policies, and SOC 2 control mapping. | Bash, Python, Kubernetes |
 | [AWS WAF Security Framework](https://github.com/mason5052/aws-waf-security-framework) | Production Terraform WAF modules for eCommerce. Bot Control, IP Reputation, Rate Limiting, Geo Blocking. Reduced bot traffic from 30%+ to under 3%. | Terraform, AWS WAF, CloudWatch |
