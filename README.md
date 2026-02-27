@@ -15,8 +15,8 @@ Security tools and AIOps infrastructure for real operational environments. I bui
 - Currently building: [Argus-Ops](https://github.com/mason5052/argus-ops) -- AI-powered K8s monitoring CLI with full detect -> diagnose -> fix pipeline
 - Currently building: [Commerce Abuse Defense](https://github.com/mason5052/commerce-abuse-defense) -- ML-based anomaly detection for bot scoring
 - Contributing to: [OWASP Nettacker](https://github.com/OWASP/Nettacker) (4.8K+ stars) -- automated pentesting framework, CVE detection modules and framework improvements
-- Contributing to: [PentAGI](https://github.com/vxcontrol/pentagi) (8.3K+ stars) -- autonomous AI pentesting, security hardening and reliability (9 merged commits in v1.2.0)
-- Contributing to: [Strix](https://github.com/usestrix/strix) (20K+ stars) -- AI pentesting agents, reconnaissance skill docs and bug triage
+- Contributing to: [PentAGI](https://github.com/vxcontrol/pentagi) (8.4K+ stars) -- autonomous AI pentesting, security hardening and reliability (9 merged commits in v1.2.0, 4 PRs in review)
+- Contributing to: [Strix](https://github.com/usestrix/strix) (20.6K+ stars) -- AI pentesting agents, reconnaissance skill docs and bug triage
 
 ---
 
@@ -47,8 +47,8 @@ Active contributor to security-focused open-source projects. Listed as a contrib
 | Project | Stars | Contributions | Stack |
 |---------|-------|---------------|-------|
 | [OWASP Nettacker](https://github.com/OWASP/Nettacker) | 4.8K+ | CISA KEV CVE detection modules, YAML module schema fixes, framework improvements | Python, YAML, Poetry |
-| [PentAGI](https://github.com/vxcontrol/pentagi) | 8.3K+ | 9 merged commits: OAuth CSRF fix ([#120](https://github.com/vxcontrol/pentagi/pull/120)), resource leak prevention, TLS/CA cert hardening, browser tool reliability ([#150](https://github.com/vxcontrol/pentagi/pull/150)), Swagger/docs fixes | Go, TypeScript, GraphQL |
-| [Strix](https://github.com/usestrix/strix) | 20K+ | Reconnaissance skill docs, Discord badge fix, Windows compatibility, bug triage | Python, Docker, LLM |
+| [PentAGI](https://github.com/vxcontrol/pentagi) | 8.4K+ | 9 merged commits in [v1.2.0](https://github.com/vxcontrol/pentagi/releases/tag/v1.2.0): OAuth CSRF fix ([#120](https://github.com/vxcontrol/pentagi/pull/120)), goroutine leak fix, resource leak prevention, TLS/CA cert hardening, Swagger/docs fixes. 4 additional PRs in review: data race fix, error propagation, test coverage | Go, TypeScript, GraphQL |
+| [Strix](https://github.com/usestrix/strix) | 20.6K+ | Reconnaissance skill docs, Discord badge fix, Windows compatibility, bug triage | Python, Docker, LLM |
 
 ---
 
