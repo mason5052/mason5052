@@ -14,7 +14,7 @@ Security tools and AIOps infrastructure for real operational environments. I bui
 
 - Currently building: [Argus-Ops](https://github.com/mason5052/argus-ops) -- AI-powered K8s monitoring CLI with full detect -> diagnose -> fix pipeline
 - Currently building: [Commerce Abuse Defense](https://github.com/mason5052/commerce-abuse-defense) -- ML-based anomaly detection for bot scoring
-- Contributing to: [PentAGI](https://github.com/vxcontrol/pentagi) (6.8K+ stars) -- autonomous AI pentesting, OAuth security hardening
+- Contributing to: [PentAGI](https://github.com/vxcontrol/pentagi) (8.3K+ stars) -- autonomous AI pentesting, security hardening and reliability (9 merged commits in v1.2.0)
 - Contributing to: [Strix](https://github.com/usestrix/strix) (20K+ stars) -- AI pentesting agents, Windows compatibility and test coverage
 
 ---
@@ -41,12 +41,12 @@ Published attack chain analyses documenting real-world eCommerce attack patterns
 
 ## Open Source Contributions
 
-Active contributor to security-focused open-source projects:
+Active contributor to security-focused open-source projects. Listed as a contributor in PentAGI [v1.2.0 release](https://github.com/vxcontrol/pentagi/releases/tag/v1.2.0).
 
 | Project | Stars | Contributions | Stack |
 |---------|-------|---------------|-------|
+| [PentAGI](https://github.com/vxcontrol/pentagi) | 8.3K+ | 9 merged commits: OAuth CSRF fix ([#120](https://github.com/vxcontrol/pentagi/pull/120)), resource leak prevention, TLS/CA cert hardening, browser tool reliability ([#150](https://github.com/vxcontrol/pentagi/pull/150)), Swagger/docs fixes | Go, TypeScript, GraphQL |
 | [Strix](https://github.com/usestrix/strix) | 20K+ | Test coverage, Windows report persistence fix, bug triage | Python, Docker, LLM |
-| [PentAGI](https://github.com/vxcontrol/pentagi) | 6.8K+ | OAuth security fix ([#120](https://github.com/vxcontrol/pentagi/pull/120)), documentation ([#121](https://github.com/vxcontrol/pentagi/pull/121)) | Go, TypeScript, GraphQL |
 
 ---
 
