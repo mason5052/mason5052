@@ -15,7 +15,7 @@ Security tools and AIOps infrastructure for real operational environments. I bui
 - Currently building: [Argus-Ops](https://github.com/mason5052/argus-ops) -- AI-powered K8s monitoring CLI with full detect -> diagnose -> fix pipeline
 - Currently building: [Commerce Abuse Defense](https://github.com/mason5052/commerce-abuse-defense) -- ML-based anomaly detection for bot scoring
 - Contributing to: [OWASP Nettacker](https://github.com/OWASP/Nettacker) (4.8K+ stars) -- automated pentesting framework, CVE detection modules and framework improvements
-- Contributing to: [PentAGI](https://github.com/vxcontrol/pentagi) (8.4K+ stars) -- autonomous AI pentesting, 14 contributions merged (78% merge rate): security hardening, data race fixes, browser tool robustness, test coverage
+- Contributing to: [PentAGI](https://github.com/vxcontrol/pentagi) (8.9K+ stars) -- autonomous AI pentesting, 19 contributions integrated (86% merge rate): security hardening, data race fixes, container security, browser tool robustness, test coverage
 - Contributing to: [Strix](https://github.com/usestrix/strix) (20.6K+ stars) -- AI pentesting agents, reconnaissance skill docs and bug triage
 
 ---
@@ -47,7 +47,7 @@ Active contributor to security-focused open-source projects. Listed as a contrib
 | Project | Stars | Contributions | Stack |
 |---------|-------|---------------|-------|
 | [OWASP Nettacker](https://github.com/OWASP/Nettacker) | 4.8K+ | CISA KEV CVE detection modules, YAML module schema fixes, framework improvements | Python, YAML, Poetry |
-| [PentAGI](https://github.com/vxcontrol/pentagi) | 8.4K+ | 14 contributions merged across 18 PRs (78% merge rate). Key fixes: OAuth CSRF prevention ([#120](https://github.com/vxcontrol/pentagi/pull/120)), goroutine leak & data race fix ([#126](https://github.com/vxcontrol/pentagi/pull/126)), http.DefaultClient mutation guard ([#151](https://github.com/vxcontrol/pentagi/pull/151)), browser tool graceful degradation ([#150](https://github.com/vxcontrol/pentagi/pull/150)), error propagation ([#152](https://github.com/vxcontrol/pentagi/pull/152)), TLS hardening, search tool test coverage, resource leak prevention | Go, TypeScript, GraphQL |
+| [PentAGI](https://github.com/vxcontrol/pentagi) | 8.9K+ | 19 contributions integrated across 24 PRs (86% merge rate). Key fixes: OAuth CSRF prevention ([#120](https://github.com/vxcontrol/pentagi/pull/120)), goroutine leak & data race fix ([#126](https://github.com/vxcontrol/pentagi/pull/126)), http.DefaultClient mutation guard ([#151](https://github.com/vxcontrol/pentagi/pull/151)), browser tool graceful degradation ([#150](https://github.com/vxcontrol/pentagi/pull/150)), error propagation ([#152](https://github.com/vxcontrol/pentagi/pull/152)), CA private key cleanup ([#168](https://github.com/vxcontrol/pentagi/pull/168)), Google proxy fix ([#167](https://github.com/vxcontrol/pentagi/pull/167)), TLS hardening, comprehensive test coverage for tools package ([#170](https://github.com/vxcontrol/pentagi/pull/170), [#171](https://github.com/vxcontrol/pentagi/pull/171), [#172](https://github.com/vxcontrol/pentagi/pull/172)) | Go, TypeScript, GraphQL |
 | [Strix](https://github.com/usestrix/strix) | 20.6K+ | Reconnaissance skill docs, Discord badge fix, Windows compatibility, bug triage | Python, Docker, LLM |
 
 ---
