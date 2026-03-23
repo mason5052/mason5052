@@ -14,9 +14,9 @@ Security tools and AIOps infrastructure for real operational environments. I bui
 
 - Currently building: [Argus-Ops](https://github.com/mason5052/argus-ops) -- AI-powered K8s monitoring CLI with full detect -> diagnose -> fix pipeline
 - Currently building: [Commerce Abuse Defense](https://github.com/mason5052/commerce-abuse-defense) -- ML-based anomaly detection for bot scoring
-- Contributing to: [OWASP Nettacker](https://github.com/OWASP/Nettacker) (4.8K+ stars) -- automated pentesting framework, CVE detection modules and framework improvements
-- Contributing to: [PentAGI](https://github.com/vxcontrol/pentagi) (8.9K+ stars) -- autonomous AI pentesting, 23 contributions integrated (82% merge rate): security hardening, concurrency bug fixes, context isolation, provider test coverage, data race fixes, container security
-- Contributing to: [Strix](https://github.com/usestrix/strix) (20.6K+ stars) -- AI pentesting agents, reconnaissance skill docs and bug triage
+- Contributing to: [PentAGI](https://github.com/vxcontrol/pentagi) (12.6K+ stars) -- autonomous AI pentesting, 28 contributions integrated: security hardening, concurrency bug fixes, context isolation, comprehensive test coverage, data race fixes, container security
+- Contributing to: [Trivy](https://github.com/aquasecurity/trivy) (33.8K+ stars) -- container and IaC vulnerability scanner, test coverage contributions
+- Contributing to: [Strix](https://github.com/usestrix/strix) (21.1K+ stars) -- AI pentesting agents, reconnaissance skill docs and bug triage
 
 ---
 
@@ -46,9 +46,9 @@ Active contributor to security-focused open-source projects. Listed as a contrib
 
 | Project | Stars | Contributions | Stack |
 |---------|-------|---------------|-------|
-| [OWASP Nettacker](https://github.com/OWASP/Nettacker) | 4.8K+ | CISA KEV CVE detection modules, YAML module schema fixes, framework improvements | Python, YAML, Poetry |
-| [PentAGI](https://github.com/vxcontrol/pentagi) | 8.9K+ | 23 contributions integrated across 30 PRs (82% merge rate). Key fixes: OAuth CSRF prevention ([#120](https://github.com/vxcontrol/pentagi/pull/120)), goroutine leak & data race fix ([#126](https://github.com/vxcontrol/pentagi/pull/126)), http.DefaultClient mutation guard ([#151](https://github.com/vxcontrol/pentagi/pull/151)), browser tool graceful degradation ([#150](https://github.com/vxcontrol/pentagi/pull/150)), error propagation ([#152](https://github.com/vxcontrol/pentagi/pull/152)), CA private key cleanup ([#168](https://github.com/vxcontrol/pentagi/pull/168)), Google proxy fix ([#167](https://github.com/vxcontrol/pentagi/pull/167)), agent chain infinite loop fix ([#178](https://github.com/vxcontrol/pentagi/pull/178)), detached context isolation ([#179](https://github.com/vxcontrol/pentagi/pull/179)), TLS hardening, comprehensive test coverage for tools and providers ([#170](https://github.com/vxcontrol/pentagi/pull/170)-[#172](https://github.com/vxcontrol/pentagi/pull/172), [#180](https://github.com/vxcontrol/pentagi/pull/180), [#189](https://github.com/vxcontrol/pentagi/pull/189)) | Go, TypeScript, GraphQL |
-| [Strix](https://github.com/usestrix/strix) | 20.6K+ | Reconnaissance skill docs, Discord badge fix, Windows compatibility, bug triage | Python, Docker, LLM |
+| [PentAGI](https://github.com/vxcontrol/pentagi) | 12.6K+ | 28 contributions integrated across 39 PRs. Key fixes: OAuth CSRF prevention ([#120](https://github.com/vxcontrol/pentagi/pull/120)), goroutine leak & data race fix ([#126](https://github.com/vxcontrol/pentagi/pull/126)), http.DefaultClient mutation guard ([#151](https://github.com/vxcontrol/pentagi/pull/151)), browser tool graceful degradation ([#150](https://github.com/vxcontrol/pentagi/pull/150)), error propagation ([#152](https://github.com/vxcontrol/pentagi/pull/152)), CA private key cleanup ([#168](https://github.com/vxcontrol/pentagi/pull/168)), Google proxy fix ([#167](https://github.com/vxcontrol/pentagi/pull/167)), agent chain infinite loop fix ([#178](https://github.com/vxcontrol/pentagi/pull/178)), detached context isolation ([#179](https://github.com/vxcontrol/pentagi/pull/179)), TLS hardening, comprehensive test coverage for tools, providers, config, terminal, graph, and server context ([#170](https://github.com/vxcontrol/pentagi/pull/170)-[#172](https://github.com/vxcontrol/pentagi/pull/172), [#180](https://github.com/vxcontrol/pentagi/pull/180), [#189](https://github.com/vxcontrol/pentagi/pull/189), [#198](https://github.com/vxcontrol/pentagi/pull/198)-[#202](https://github.com/vxcontrol/pentagi/pull/202), [#213](https://github.com/vxcontrol/pentagi/pull/213), [#214](https://github.com/vxcontrol/pentagi/pull/214)) | Go, TypeScript, GraphQL |
+| [Trivy](https://github.com/aquasecurity/trivy) | 33.8K+ | Container and IaC vulnerability scanner, test coverage contributions | Go |
+| [Strix](https://github.com/usestrix/strix) | 21.1K+ | Reconnaissance skill docs, Discord badge fix, Windows compatibility, bug triage | Python, Docker, LLM |
 
 ---
 
