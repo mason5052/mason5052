@@ -14,9 +14,9 @@ Security tools and AIOps infrastructure for real operational environments. I bui
 
 - Currently building: [Argus-Ops](https://github.com/mason5052/argus-ops) -- AI-powered K8s monitoring CLI with full detect -> diagnose -> fix pipeline
 - Currently building: [Commerce Abuse Defense](https://github.com/mason5052/commerce-abuse-defense) -- ML-based anomaly detection for bot scoring
-- Contributing to: [PentAGI](https://github.com/vxcontrol/pentagi) (12.6K+ stars) -- autonomous AI pentesting, 28 contributions integrated: security hardening, concurrency bug fixes, context isolation, comprehensive test coverage, data race fixes, container security
-- Contributing to: [Trivy](https://github.com/aquasecurity/trivy) (33.8K+ stars) -- container and IaC vulnerability scanner, test coverage contributions
-- Contributing to: [Strix](https://github.com/usestrix/strix) (21.1K+ stars) -- AI pentesting agents, reconnaissance skill docs and bug triage
+- Contributing to: [PentAGI](https://github.com/vxcontrol/pentagi) (14.5K+ stars) -- autonomous AI pentesting, 30 contributions integrated: security hardening, concurrency bug fixes, context isolation, comprehensive test coverage, observability testing, Docker infrastructure
+- Contributing to: [Trivy](https://github.com/aquasecurity/trivy) (34.4K+ stars) -- container and IaC vulnerability scanner, test coverage contributions
+- Contributing to: [Strix](https://github.com/usestrix/strix) (23.2K+ stars) -- AI pentesting agents, reconnaissance skill docs and bug triage
 
 ---
 
@@ -42,13 +42,13 @@ Published attack chain analyses documenting real-world eCommerce attack patterns
 
 ## Open Source Contributions
 
-Active contributor to security-focused open-source projects. Listed as a contributor in PentAGI [v1.2.0 release](https://github.com/vxcontrol/pentagi/releases/tag/v1.2.0).
+Active contributor to security-focused open-source projects. #1 external contributor on PentAGI, listed in [CONTRIBUTORS.md](https://github.com/vxcontrol/pentagi/blob/main/CONTRIBUTORS.md) and [v1.2.0 release](https://github.com/vxcontrol/pentagi/releases/tag/v1.2.0).
 
 | Project | Stars | Contributions | Stack |
 |---------|-------|---------------|-------|
-| [PentAGI](https://github.com/vxcontrol/pentagi) | 12.6K+ | 28 merged contributions across 39 PRs. Key fixes: OAuth CSRF prevention ([#120](https://github.com/vxcontrol/pentagi/pull/120)), http.DefaultClient mutation guard ([#151](https://github.com/vxcontrol/pentagi/pull/151)), browser tool graceful degradation ([#150](https://github.com/vxcontrol/pentagi/pull/150)), error propagation ([#152](https://github.com/vxcontrol/pentagi/pull/152)), CA private key cleanup ([#168](https://github.com/vxcontrol/pentagi/pull/168)), Google proxy fix ([#167](https://github.com/vxcontrol/pentagi/pull/167)), agent chain infinite loop fix ([#178](https://github.com/vxcontrol/pentagi/pull/178)), detached context isolation ([#179](https://github.com/vxcontrol/pentagi/pull/179)), TLS hardening, comprehensive test coverage for tools, providers, config, terminal, graph, and server context ([#170](https://github.com/vxcontrol/pentagi/pull/170)-[#172](https://github.com/vxcontrol/pentagi/pull/172), [#180](https://github.com/vxcontrol/pentagi/pull/180), [#189](https://github.com/vxcontrol/pentagi/pull/189), [#198](https://github.com/vxcontrol/pentagi/pull/198)-[#202](https://github.com/vxcontrol/pentagi/pull/202), [#213](https://github.com/vxcontrol/pentagi/pull/213), [#214](https://github.com/vxcontrol/pentagi/pull/214)) | Go, TypeScript, GraphQL |
-| [Trivy](https://github.com/aquasecurity/trivy) | 33.8K+ | Container and IaC vulnerability scanner, test coverage contributions | Go |
-| [Strix](https://github.com/usestrix/strix) | 21.1K+ | Discord badge fix, bug triage | Python, Docker, LLM |
+| [PentAGI](https://github.com/vxcontrol/pentagi) | 14.5K+ | 30 merged contributions across 44 PRs (86% merge rate). Key fixes: OAuth CSRF prevention ([#120](https://github.com/vxcontrol/pentagi/pull/120)), http.DefaultClient mutation guard ([#151](https://github.com/vxcontrol/pentagi/pull/151)), browser tool graceful degradation ([#150](https://github.com/vxcontrol/pentagi/pull/150)), error propagation ([#152](https://github.com/vxcontrol/pentagi/pull/152)), CA private key cleanup ([#168](https://github.com/vxcontrol/pentagi/pull/168)), Google proxy fix ([#167](https://github.com/vxcontrol/pentagi/pull/167)), agent chain infinite loop fix ([#178](https://github.com/vxcontrol/pentagi/pull/178)), detached context isolation ([#179](https://github.com/vxcontrol/pentagi/pull/179)), TLS hardening, comprehensive test coverage for tools, providers, config, terminal, graph, server context, server models, schema validation, and Langfuse observability ([#170](https://github.com/vxcontrol/pentagi/pull/170)-[#172](https://github.com/vxcontrol/pentagi/pull/172), [#180](https://github.com/vxcontrol/pentagi/pull/180), [#189](https://github.com/vxcontrol/pentagi/pull/189), [#198](https://github.com/vxcontrol/pentagi/pull/198)-[#202](https://github.com/vxcontrol/pentagi/pull/202), [#213](https://github.com/vxcontrol/pentagi/pull/213)-[#214](https://github.com/vxcontrol/pentagi/pull/214), [#230](https://github.com/vxcontrol/pentagi/pull/230)-[#231](https://github.com/vxcontrol/pentagi/pull/231), [#241](https://github.com/vxcontrol/pentagi/pull/241)-[#242](https://github.com/vxcontrol/pentagi/pull/242)), Docker Compose infrastructure ([#243](https://github.com/vxcontrol/pentagi/pull/243)) | Go, TypeScript, GraphQL |
+| [Trivy](https://github.com/aquasecurity/trivy) | 34.4K+ | Container and IaC vulnerability scanner, test coverage contributions | Go |
+| [Strix](https://github.com/usestrix/strix) | 23.2K+ | Discord badge fix, bug triage | Python, Docker, LLM |
 
 ---
 
