@@ -10,8 +10,9 @@
 
 ## What I Build
 
-Security tools and AIOps infrastructure for real operational environments. I build detection systems, AI-powered monitoring pipelines, and WAF automation -- solving real problems with open-source code.
+Security tools, autonomous AI agents, and AIOps infrastructure for real operational environments. I build detection systems, AI-powered monitoring pipelines, and WAF automation -- solving real problems with open-source code.
 
+- Currently building: [Aethon](https://github.com/mason5052/aethon) -- Autonomous AI agent framework with 7-state FSM, 39 built-in tools, multi-channel I/O, and local LLM inference on a heterogeneous GPU cluster
 - Currently building: [Commerce Abuse Defense](https://github.com/mason5052/commerce-abuse-defense) -- ML-based anomaly detection for bot scoring
 - Contributing to: [PentAGI](https://github.com/vxcontrol/pentagi) (14.5K+ stars) -- autonomous AI pentesting, 30 contributions integrated: security hardening, concurrency bug fixes, context isolation, comprehensive test coverage, observability testing, Docker infrastructure
 - Contributing to: [Trivy](https://github.com/aquasecurity/trivy) (34.4K+ stars) -- container and IaC vulnerability scanner, test coverage contributions
@@ -23,6 +24,7 @@ Security tools and AIOps infrastructure for real operational environments. I bui
 
 | Project | Description | Stack |
 |---------|-------------|-------|
+| [Aethon](https://github.com/mason5052/aethon) | Autonomous AI agent framework. 7-state FSM agent loop, 39 built-in tools (file ops, GitHub, Jira, browser automation, scheduling), 4-tier persistent memory with RAG retrieval, multi-channel communication (CLI, Telegram, Slack, Teams, Email), persona-based role system. Runs on local LLM (Gemma 4 31B) distributed across NVIDIA + Apple Silicon GPU cluster via llama.cpp RPC. v0.3.0. | Python, llama.cpp, Playwright, MCP |
 | [Commerce Abuse Defense](https://github.com/mason5052/commerce-abuse-defense) | Bot abuse detection and scoring tool with WAF rule generation. 6 detection rules, weighted scoring (0-100), auto-generates Cloudflare and AWS WAF rules. v0.2.1, 60 tests, CI. | Python, Shopify, Cloudflare, AWS WAF |
 | [K8s Security Baseline](https://github.com/mason5052/k8s-security-baseline) | CIS Benchmark v1.8.0 audit automation with RBAC templates, network policies, and SOC 2 control mapping. | Bash, Python, Kubernetes |
 | [AWS WAF Security Framework](https://github.com/mason5052/aws-waf-security-framework) | Production Terraform WAF modules for eCommerce. Bot Control, IP Reputation, Rate Limiting, Geo Blocking. Reduced bot traffic from 30%+ to under 3%. | Terraform, AWS WAF, CloudWatch |
