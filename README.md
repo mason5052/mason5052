@@ -21,12 +21,7 @@ Public work I can explain deeply: Kubernetes hardening, WAF automation, and secu
 
 ## Featured Work
 
-| Project | Description | Stack |
-|---------|-------------|-------|
-| [PentAGI](https://github.com/vxcontrol/pentagi) | Contributor, not owner. Selected merged PRs across OAuth hardening, runtime reliability, Docker Compose health checks, and broad test coverage for core packages. | Go, TypeScript, GraphQL |
-| [K8s Security Baseline](https://github.com/mason5052/k8s-security-baseline) | CIS Benchmark v1.8.0 audit automation with RBAC templates, network policies, and SOC 2 control mapping. | Bash, Python, Kubernetes |
-| [AWS WAF Security Framework](https://github.com/mason5052/aws-waf-security-framework) | Terraform modules for AWS WAF v2 with bot protection, rate limiting, IP reputation, and geo controls. | Terraform, AWS WAF, CloudWatch |
-| [mason-kim](https://github.com/mason5052/mason-kim) | Portfolio site and writing hub for public projects, credentials, and contact information. | HTML, GitHub Pages |
+- [PentAGI](https://github.com/vxcontrol/pentagi) -- Contributor, not owner. Selected merged PRs across OAuth hardening, runtime reliability, Docker Compose health checks, and broad test coverage for core packages. Stack: Go, TypeScript, GraphQL.
 
 ---
 
