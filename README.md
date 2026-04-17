@@ -1,6 +1,6 @@
 # Mason Kim
 
-**Security Engineer** | Platform security, cloud defense automation, and security-focused open source
+**DevSecOps & Application Security Engineer** | Platform security, cloud defense automation, and security-focused open source
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/junkukkim/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=flat&logo=blogger&logoColor=white)](https://mason5052.github.io/mason-kim/)
