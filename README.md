@@ -1,6 +1,6 @@
 # Mason Kim
 
-**AI Security & Platform Governance Engineer** | Secure control planes, cloud/Kubernetes security, and adversarial abuse defense
+**AI Security & Platform Governance ** | Secure control planes, cloud/Kubernetes security | DevSecOps , and adversarial abuse defense
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/junkukkim/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=flat&logo=blogger&logoColor=white)](https://mason5052.github.io/mason-kim/)
