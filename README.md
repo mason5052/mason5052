@@ -1,47 +1,61 @@
 # Mason Kim
 
-**DevSecOps & Application Security Engineer** | Platform security, cloud defense automation, and security-focused open source
+**AI Security & Platform Governance Engineer** | Secure control planes, cloud/Kubernetes security, and adversarial abuse defense
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/junkukkim/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=flat&logo=blogger&logoColor=white)](https://mason5052.github.io/mason-kim/)
+[![CI](https://github.com/mason5052/commerce-abuse-defense/actions/workflows/ci.yml/badge.svg)](https://github.com/mason5052/commerce-abuse-defense/actions)
 
 ---
 
-## What I Work On
+## What I Build
 
-Public work I can explain deeply: Kubernetes hardening, WAF automation, and security-focused contributions to open-source security tooling.
+I build secure control planes for AI-enabled infrastructure: policy gateways, audit trails, cloud/Kubernetes security, and adversarial abuse defense.
 
-- Public project: [K8s Security Baseline](https://github.com/mason5052/k8s-security-baseline) -- CIS benchmark audit automation, RBAC templates, network policies, and SOC 2-aligned reporting
-- Public project: [AWS WAF Security Framework](https://github.com/mason5052/aws-waf-security-framework) -- Terraform modules for AWS WAF v2 with bot protection, rate limiting, and eCommerce-focused rules
-- Open-source contributor: [PentAGI](https://github.com/vxcontrol/pentagi) -- 51 merged PRs across 65 submitted PRs for OAuth hardening, runtime reliability, test coverage, Docker Compose infrastructure, flow-scoped file handling, and operator/user-facing docs
-- Open-source contributor: [Trivy](https://github.com/aquasecurity/trivy) -- test coverage contributions for container and IaC security scanning
-- Open-source contributor: [Strix](https://github.com/usestrix/strix) -- documentation fixes and bug triage for AI pentesting agents
+- Published: [AI Security & Platform Governance](https://github.com/mason5052/ai-security-platform-governance) -- reference architecture for policy gateways, agent threat modeling, and production AI operations
+- Currently building: [Commerce Abuse Defense](https://github.com/mason5052/commerce-abuse-defense) -- ML-based anomaly detection for bot scoring and WAF rule generation
+- Contributing to: [PentAGI](https://github.com/vxcontrol/pentagi) -- contributor, not owner. Selected merged PRs across OAuth hardening, runtime reliability, Docker Compose health checks, and broad test coverage for core packages
+- Contributing to: [Trivy](https://github.com/aquasecurity/trivy) (33.8K+ stars) -- container and IaC vulnerability scanner, test coverage contributions
+- Contributing to: [Strix](https://github.com/usestrix/strix) (21.1K+ stars) -- AI pentesting agents, reconnaissance skill docs and bug triage
 
 ---
 
-## Featured Work
+## Featured Projects
 
-- [PentAGI](https://github.com/vxcontrol/pentagi) -- Contributor, not owner. 51 merged PRs across 65 submitted PRs, including OAuth hardening, runtime reliability, Docker Compose health checks, operator configuration docs, flow-scoped file uploads, assistant flow-management docs, and broad test coverage for core packages. Stack: Go, TypeScript, GraphQL.
+| Project | Description | Stack |
+|---------|-------------|-------|
+| [Commerce Abuse Defense](https://github.com/mason5052/commerce-abuse-defense) | Bot abuse detection and scoring tool with WAF rule generation. 6 detection rules, weighted scoring (0-100), auto-generates Cloudflare and AWS WAF rules. v0.2.1, 60 tests, CI. | Python, Shopify, Cloudflare, AWS WAF |
+| [K8s Security Baseline](https://github.com/mason5052/k8s-security-baseline) | CIS Benchmark v1.8.0 audit automation with RBAC templates, network policies, and SOC 2 control mapping. | Bash, Python, Kubernetes |
+| [AWS WAF Security Framework](https://github.com/mason5052/aws-waf-security-framework) | Production Terraform WAF modules for eCommerce. Bot Control, IP Reputation, Rate Limiting, Geo Blocking. Reduced bot traffic from 30%+ to under 3%. | Terraform, AWS WAF, CloudWatch |
+
+---
+
+## Research
+
+Published attack chain analyses documenting real-world eCommerce attack patterns:
+
+- **[001: Hidden Product Card-Testing on Shopify](https://github.com/mason5052/commerce-abuse-defense/blob/main/docs/attack-chains/001-hidden-product-card-testing.md)** -- How attackers discover $0 products via API enumeration and use them for card validation. MITRE ATT&CK T1595, T1190.
+- **[002: App-Layer Bot Defense Bypass Patterns](https://github.com/mason5052/commerce-abuse-defense/blob/main/docs/attack-chains/002-app-layer-defense-bypass.md)** -- Why client-side bot mitigation is necessary but insufficient. 5 bypass techniques, multi-layer defense architecture.
+
+Reference architecture for AI policy gateways, agent threat models, and production AI operations is published as a public-safe portfolio repository. The three core documents:
+
+- **[Generic AI Policy Gateway Architecture](https://github.com/mason5052/ai-security-platform-governance/blob/main/Generic-AI-Policy-Gateway-Architecture.md)** -- a control-plane design that secures AI assistants and agents with deterministic policy checks, redaction, and audit logging.
+- **[Agent Security Threat Model](https://github.com/mason5052/ai-security-platform-governance/blob/main/Agent-Security-Threat-Model.md)** -- six categories of risk for AI agents that act on tools, files, browsers, APIs, and infrastructure, with concrete control responses for each.
+- **[AI Production Operations Playbook](https://github.com/mason5052/ai-security-platform-governance/blob/main/AI-Production-Operations-Playbook.md)** -- service health, fallback patterns, incident runbooks, and governance metrics for AI systems.
+
+Repository: [github.com/mason5052/ai-security-platform-governance](https://github.com/mason5052/ai-security-platform-governance)
 
 ---
 
 ## Open Source Contributions
 
-I use GitHub to show public projects I can defend in detail and merged upstream work that has third-party validation.
+Active contributor to security-focused open-source projects. Listed as a contributor in PentAGI [v1.2.0 release](https://github.com/vxcontrol/pentagi/releases/tag/v1.2.0).
 
-| Project | Contribution Focus | Stack |
-|---------|--------------------|-------|
-| [PentAGI](https://github.com/vxcontrol/pentagi) | Contributor, not owner. 51 merged PRs across 65 submitted PRs in a 16K+ star AI pentesting platform. Selected merged PRs include OAuth hardening ([#120](https://github.com/vxcontrol/pentagi/pull/120), [#125](https://github.com/vxcontrol/pentagi/pull/125), [#127](https://github.com/vxcontrol/pentagi/pull/127)), runtime and reliability fixes ([#150](https://github.com/vxcontrol/pentagi/pull/150), [#151](https://github.com/vxcontrol/pentagi/pull/151), [#152](https://github.com/vxcontrol/pentagi/pull/152), [#178](https://github.com/vxcontrol/pentagi/pull/178), [#179](https://github.com/vxcontrol/pentagi/pull/179), [#261](https://github.com/vxcontrol/pentagi/pull/261), [#265](https://github.com/vxcontrol/pentagi/pull/265)), CA private key cleanup ([#168](https://github.com/vxcontrol/pentagi/pull/168)), Docker Compose health checks ([#243](https://github.com/vxcontrol/pentagi/pull/243)), operator-facing docs, templates, and workflow guidance ([#260](https://github.com/vxcontrol/pentagi/pull/260), [#262](https://github.com/vxcontrol/pentagi/pull/262), [#264](https://github.com/vxcontrol/pentagi/pull/264), [#266](https://github.com/vxcontrol/pentagi/pull/266)-[#267](https://github.com/vxcontrol/pentagi/pull/267), [#269](https://github.com/vxcontrol/pentagi/pull/269)-[#270](https://github.com/vxcontrol/pentagi/pull/270), [#275](https://github.com/vxcontrol/pentagi/pull/275)-[#278](https://github.com/vxcontrol/pentagi/pull/278), [#292](https://github.com/vxcontrol/pentagi/pull/292)-[#294](https://github.com/vxcontrol/pentagi/pull/294)), flow-scoped file uploads ([#272](https://github.com/vxcontrol/pentagi/pull/272)), and test coverage across search tools, config, terminal, providers, graph/server context, schema validation, Langfuse, and Graphiti ([#153](https://github.com/vxcontrol/pentagi/pull/153), [#170](https://github.com/vxcontrol/pentagi/pull/170)-[#172](https://github.com/vxcontrol/pentagi/pull/172), [#189](https://github.com/vxcontrol/pentagi/pull/189), [#199](https://github.com/vxcontrol/pentagi/pull/199)-[#202](https://github.com/vxcontrol/pentagi/pull/202), [#213](https://github.com/vxcontrol/pentagi/pull/213)-[#214](https://github.com/vxcontrol/pentagi/pull/214), [#230](https://github.com/vxcontrol/pentagi/pull/230)-[#244](https://github.com/vxcontrol/pentagi/pull/244)). | Go, TypeScript, GraphQL |
-| [Trivy](https://github.com/aquasecurity/trivy) | Test coverage contributions for vulnerability and IaC scanning packages. | Go |
-| [Strix](https://github.com/usestrix/strix) | Documentation fixes and bug triage for AI pentesting agents. | Python, Docker, LLM |
-
-### PentAGI Highlights
-
-- Security and auth hardening: OAuth GET callback state enforcement ([#120](https://github.com/vxcontrol/pentagi/pull/120)), required field validation in OAuth state parsing ([#125](https://github.com/vxcontrol/pentagi/pull/125)), missing return fix in OAuth callback redirect ([#127](https://github.com/vxcontrol/pentagi/pull/127)), CA private key cleanup after certificate signing ([#168](https://github.com/vxcontrol/pentagi/pull/168)), and OAuth callback setup documentation ([#260](https://github.com/vxcontrol/pentagi/pull/260)).
-- Runtime and reliability: browser tool graceful degradation on screenshot failure ([#150](https://github.com/vxcontrol/pentagi/pull/150)), `http.DefaultClient` mutation guard in search tools ([#151](https://github.com/vxcontrol/pentagi/pull/151)), error propagation in `GetTool` container lookup ([#152](https://github.com/vxcontrol/pentagi/pull/152)), repeating tool-call infinite loop fix ([#178](https://github.com/vxcontrol/pentagi/pull/178)), detached command context isolation ([#179](https://github.com/vxcontrol/pentagi/pull/179)), configurable terminal tool timeout ([#261](https://github.com/vxcontrol/pentagi/pull/261)), Docker Compose validation alignment ([#265](https://github.com/vxcontrol/pentagi/pull/265)), and pgvector Docker Compose health checks ([#243](https://github.com/vxcontrol/pentagi/pull/243)).
-- Deployment and operator guidance: Docker mirror guidance for restricted networks ([#262](https://github.com/vxcontrol/pentagi/pull/262)), first-use and memory-lifecycle docs ([#264](https://github.com/vxcontrol/pentagi/pull/264), [#267](https://github.com/vxcontrol/pentagi/pull/267)), current capability/settings clarification ([#269](https://github.com/vxcontrol/pentagi/pull/269)-[#270](https://github.com/vxcontrol/pentagi/pull/270)), OpenVAS custom image guidance ([#275](https://github.com/vxcontrol/pentagi/pull/275)), scope-of-work and evidence chain docs ([#276](https://github.com/vxcontrol/pentagi/pull/276)-[#277](https://github.com/vxcontrol/pentagi/pull/277)), OSINT integration scenarios ([#278](https://github.com/vxcontrol/pentagi/pull/278)), assistant flow management for active flows ([#292](https://github.com/vxcontrol/pentagi/pull/292)), processor wizard link fixes ([#293](https://github.com/vxcontrol/pentagi/pull/293)), and web UI account setup docs ([#294](https://github.com/vxcontrol/pentagi/pull/294)).
-- Workflow and file handling: flow-scoped file uploads ([#272](https://github.com/vxcontrol/pentagi/pull/272)).
-- Test coverage and maintainability: search tools ([#153](https://github.com/vxcontrol/pentagi/pull/153)), executor helpers and terminal utilities ([#172](https://github.com/vxcontrol/pentagi/pull/172)), provider coverage ([#189](https://github.com/vxcontrol/pentagi/pull/189)), config and terminal packages ([#199](https://github.com/vxcontrol/pentagi/pull/199)-[#200](https://github.com/vxcontrol/pentagi/pull/200)), response and embeddings packages ([#201](https://github.com/vxcontrol/pentagi/pull/201)-[#202](https://github.com/vxcontrol/pentagi/pull/202)), graph and server context helpers ([#213](https://github.com/vxcontrol/pentagi/pull/213)-[#214](https://github.com/vxcontrol/pentagi/pull/214)), server models and schema validation ([#230](https://github.com/vxcontrol/pentagi/pull/230)-[#231](https://github.com/vxcontrol/pentagi/pull/231)), Langfuse coverage ([#241](https://github.com/vxcontrol/pentagi/pull/241)-[#242](https://github.com/vxcontrol/pentagi/pull/242)), and Graphiti client coverage ([#244](https://github.com/vxcontrol/pentagi/pull/244)).
+| Project | Stars | Contributions | Stack |
+|---------|-------|---------------|-------|
+| [PentAGI](https://github.com/vxcontrol/pentagi) | 15K+ | Contributor, not owner. Selected merged PRs include OAuth hardening ([#120](https://github.com/vxcontrol/pentagi/pull/120), [#125](https://github.com/vxcontrol/pentagi/pull/125), [#127](https://github.com/vxcontrol/pentagi/pull/127)), runtime and reliability fixes ([#150](https://github.com/vxcontrol/pentagi/pull/150), [#151](https://github.com/vxcontrol/pentagi/pull/151), [#152](https://github.com/vxcontrol/pentagi/pull/152), [#178](https://github.com/vxcontrol/pentagi/pull/178), [#179](https://github.com/vxcontrol/pentagi/pull/179)), CA private key cleanup ([#168](https://github.com/vxcontrol/pentagi/pull/168)), Docker Compose health checks ([#243](https://github.com/vxcontrol/pentagi/pull/243)), and test coverage across search tools, config, terminal, providers, graph/server context, schema validation, Langfuse, and Graphiti ([#153](https://github.com/vxcontrol/pentagi/pull/153), [#170](https://github.com/vxcontrol/pentagi/pull/170)-[#172](https://github.com/vxcontrol/pentagi/pull/172), [#189](https://github.com/vxcontrol/pentagi/pull/189), [#199](https://github.com/vxcontrol/pentagi/pull/199)-[#202](https://github.com/vxcontrol/pentagi/pull/202), [#213](https://github.com/vxcontrol/pentagi/pull/213)-[#214](https://github.com/vxcontrol/pentagi/pull/214), [#230](https://github.com/vxcontrol/pentagi/pull/230)-[#244](https://github.com/vxcontrol/pentagi/pull/244)). | Go, TypeScript, GraphQL |
+| [Trivy](https://github.com/aquasecurity/trivy) | 33.8K+ | Container and IaC vulnerability scanner, test coverage contributions | Go |
+| [Strix](https://github.com/usestrix/strix) | 21.1K+ | Reconnaissance skill docs, Discord badge fix, Windows compatibility, bug triage | Python, Docker, LLM |
 
 ---
 
