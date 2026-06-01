@@ -57,6 +57,15 @@ Active contributor to security-focused open-source projects. Listed as a contrib
 | [Trivy](https://github.com/aquasecurity/trivy) | 33.8K+ | Container and IaC vulnerability scanner, test coverage contributions | Go |
 | [Strix](https://github.com/usestrix/strix) | 21.1K+ | Reconnaissance skill docs, Discord badge fix, Windows compatibility, bug triage | Python, Docker, LLM |
 
+### Recent PentAGI Contribution Updates
+
+Latest verified PentAGI status: 59 merged PRs across 74 submitted PRs, plus 2 cherry-picked fixes, for 61 integrated contributions total. Recent merged highlights include:
+
+- [#306](https://github.com/vxcontrol/pentagi/pull/306) -- proposed a persistent flow queue and completion-webhook RFC aligned with maintainer feedback on visible, restart-safe flow control.
+- [#307](https://github.com/vxcontrol/pentagi/pull/307) -- proposed an MCP client integration RFC for connecting PentAGI to external security tools without adding premature runtime scope.
+- [#317](https://github.com/vxcontrol/pentagi/pull/317) -- updated DeepSeek defaults to V4 model names, including current metadata, pricing, and thinking-mode semantics.
+- [#318](https://github.com/vxcontrol/pentagi/pull/318) -- clarified current Vertex AI / Anthropic configuration options and safe custom-gateway guidance.
+
 ---
 
 ## Certifications
