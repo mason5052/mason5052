@@ -57,7 +57,7 @@ Active contributor to security-focused open-source projects. Listed as a contrib
 
 | Degree | Institution | Status |
 |--------|-------------|--------|
-| MS Cybersecurity | Georgia Institute of Technology | Coursework expected Summer 2026; graduation audit in progress; December 2026 commencement planned |
+| MS Cybersecurity | Georgia Institute of Technology | Expected December 2026 |
 
 ---
 
