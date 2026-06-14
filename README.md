@@ -11,7 +11,7 @@
 
 I build production-oriented cloud platforms and policy-bounded AI security systems: Kubernetes platforms, CI/CD automation, observability, security guardrails, and secure model delegation.
 
-- Production platform engineering: built and improved Kubernetes-based deployment platforms, CI/CD pipelines, observability, and security automation for production workloads. See [Production Kubernetes DevOps Platform](https://github.com/mason5052/production-kubernetes-devops-platform).
+- Production platform engineering: built and improved Kubernetes-based deployment platforms, CI/CD pipelines, observability, and security automation for production workloads. See [Production DevOps Portfolio: Kubernetes Platform Engineering](https://github.com/mason5052/production-kubernetes-devops-platform).
 - AI security research: Secure Model Delegation -- policy-bounded local-to-cloud LLM fallback with target-specific disclosure policy, sanitization, routing, response verification, and audit logging
 - Contributing to: [PentAGI](https://github.com/vxcontrol/pentagi) -- contributor, not owner. Selected merged PRs across OAuth hardening, runtime reliability, Docker Compose health checks, and broad test coverage for core packages
 - Contributing to: [Strix](https://github.com/usestrix/strix) (21.1K+ stars) -- AI pentesting agents, reconnaissance skill docs and bug triage
@@ -22,7 +22,7 @@ I build production-oriented cloud platforms and policy-bounded AI security syste
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| [Production Kubernetes DevOps Platform](https://github.com/mason5052/production-kubernetes-devops-platform) | Public-safe production DevOps case study covering self-managed Kubernetes, AWS infrastructure, Terraform, GitHub Actions, ArgoCD, Docker, observability, IAM hardening, WAF/security controls, incident response, and cost optimization. | Kubernetes, AWS, Terraform, GitHub Actions, ArgoCD, Docker, Prometheus, Grafana |
+| [Production DevOps Portfolio: Kubernetes Platform Engineering](https://github.com/mason5052/production-kubernetes-devops-platform) | Production DevOps portfolio covering Kubernetes platform operations, AWS infrastructure, Terraform, GitHub Actions, ArgoCD, Docker, observability, IAM hardening, WAF/security controls, incident response, and cost optimization. | Kubernetes, AWS, Terraform, GitHub Actions, ArgoCD, Docker, Prometheus, Grafana |
 | Secure Model Delegation | Policy-bounded controller for local/private-to-cloud LLM fallback using synthetic enterprise requests. Applies hard disclosure policy before delegation, sanitizes denied spans, captures delegated payloads, and evaluates leakage, routing accuracy, and utility. | Python, FastAPI, YAML policy, synthetic benchmarks |
 
 ---
