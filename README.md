@@ -1,49 +1,36 @@
 # Mason Kim
 
-AI Security & Platform Governance | Secure control planes, cloud/Kubernetes security | DevSecOps , and adversarial abuse defense
+**DevOps / DevSecOps / Cloud Platform Engineer** | Kubernetes, Terraform, CI/CD, AWS, security automation, observability, and incident response
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/junkukkim/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=flat&logo=blogger&logoColor=white)](https://mason5052.github.io/mason-kim/)
-[![CI](https://github.com/mason5052/commerce-abuse-defense/actions/workflows/ci.yml/badge.svg)](https://github.com/mason5052/commerce-abuse-defense/actions)
 
 ---
 
 ## What I Build
 
-I build secure control planes for AI-enabled infrastructure: policy gateways, audit trails, cloud/Kubernetes security, and adversarial abuse defense.
+I build production-oriented cloud platforms and policy-bounded AI security systems: Kubernetes platforms, CI/CD automation, observability, security guardrails, and secure model delegation.
 
-- Published: [AI Security & Platform Governance](https://github.com/mason5052/ai-security-platform-governance) -- reference architecture for policy gateways, agent threat modeling, and production AI operations
-- Currently building: [Commerce Abuse Defense](https://github.com/mason5052/commerce-abuse-defense) -- ML-based anomaly detection for bot scoring and WAF rule generation
-- Contributing to: [PentAGI](https://github.com/vxcontrol/pentagi) -- contributor, not owner. 51 merged PRs across 72 submitted PRs, including OAuth hardening, runtime reliability, Docker Compose health checks, flow-file support, operator docs, RFCs, and broad test coverage for core packages
-- Contributing to: [Trivy](https://github.com/aquasecurity/trivy) (33.8K+ stars) -- container and IaC vulnerability scanner, test coverage contributions
+- Production platform engineering: built and improved Kubernetes-based deployment platforms, CI/CD pipelines, observability, and security automation for production workloads
+- Primary private research project: Secure Model Delegation -- a CS6727 practicum and paper project for policy-bounded local-to-cloud LLM fallback, target-specific disclosure policy, sanitization, routing, response verification, and audit logging
+- Contributing to: [PentAGI](https://github.com/vxcontrol/pentagi) -- contributor, not owner. Selected merged PRs across OAuth hardening, runtime reliability, Docker Compose health checks, and broad test coverage for core packages
 - Contributing to: [Strix](https://github.com/usestrix/strix) (21.1K+ stars) -- AI pentesting agents, reconnaissance skill docs and bug triage
 
 ---
 
-## Featured Projects
+## Featured Project
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| [Commerce Abuse Defense](https://github.com/mason5052/commerce-abuse-defense) | Bot abuse detection and scoring tool with WAF rule generation. 6 detection rules, weighted scoring (0-100), auto-generates Cloudflare and AWS WAF rules. v0.2.1, 60 tests, CI. | Python, Shopify, Cloudflare, AWS WAF |
-| [K8s Security Baseline](https://github.com/mason5052/k8s-security-baseline) | CIS Benchmark v1.8.0 audit automation with RBAC templates, network policies, and SOC 2 control mapping. | Bash, Python, Kubernetes |
-| [AWS WAF Security Framework](https://github.com/mason5052/aws-waf-security-framework) | Production Terraform WAF modules for eCommerce. Bot Control, IP Reputation, Rate Limiting, Geo Blocking. Reduced bot traffic from 30%+ to under 3%. | Terraform, AWS WAF, CloudWatch |
+| Secure Model Delegation (private) | Policy-bounded controller for local/private-to-cloud LLM fallback using synthetic enterprise requests. Applies hard disclosure policy before delegation, sanitizes denied spans, captures delegated payloads, and evaluates leakage, routing accuracy, and utility. | Python, FastAPI, YAML policy, synthetic benchmarks |
 
 ---
 
-## Research
+## Research Focus
 
-Published attack chain analyses documenting real-world eCommerce attack patterns:
+Secure Model Delegation is my primary Georgia Tech CS6727 practicum, prototype, and planned paper project. This is the research line I am actively developing: how a trusted local or private AI system can delegate selected text requests to a less-trusted cloud LLM while enforcing target-specific confidentiality policy.
 
-- **[001: Hidden Product Card-Testing on Shopify](https://github.com/mason5052/commerce-abuse-defense/blob/main/docs/attack-chains/001-hidden-product-card-testing.md)** -- How attackers discover $0 products via API enumeration and use them for card validation. MITRE ATT&CK T1595, T1190.
-- **[002: App-Layer Bot Defense Bypass Patterns](https://github.com/mason5052/commerce-abuse-defense/blob/main/docs/attack-chains/002-app-layer-defense-bypass.md)** -- Why client-side bot mitigation is necessary but insufficient. 5 bypass techniques, multi-layer defense architecture.
-
-Reference architecture for AI policy gateways, agent threat models, and production AI operations is published as a public-safe portfolio repository. The three core documents:
-
-- **[Generic AI Policy Gateway Architecture](https://github.com/mason5052/ai-security-platform-governance/blob/main/Generic-AI-Policy-Gateway-Architecture.md)** -- a control-plane design that secures AI assistants and agents with deterministic policy checks, redaction, and audit logging.
-- **[Agent Security Threat Model](https://github.com/mason5052/ai-security-platform-governance/blob/main/Agent-Security-Threat-Model.md)** -- six categories of risk for AI agents that act on tools, files, browsers, APIs, and infrastructure, with concrete control responses for each.
-- **[AI Production Operations Playbook](https://github.com/mason5052/ai-security-platform-governance/blob/main/AI-Production-Operations-Playbook.md)** -- service health, fallback patterns, incident runbooks, and governance metrics for AI systems.
-
-Repository: [github.com/mason5052/ai-security-platform-governance](https://github.com/mason5052/ai-security-platform-governance)
+The project repository is private while the research is still maturing, but it is the source of my formal model, threat model, policy matrix, synthetic benchmark cases, Python gateway prototype, local web control panel, audit logging, leakage evaluation harness, and paper draft. I plan to use this project as the foundation for future academic submission or public release when it is ready.
 
 ---
 
@@ -53,18 +40,8 @@ Active contributor to security-focused open-source projects. Listed as a contrib
 
 | Project | Stars | Contributions | Stack |
 |---------|-------|---------------|-------|
-| [PentAGI](https://github.com/vxcontrol/pentagi) | 16.8K+ | Contributor, not owner. 51 merged PRs across 72 submitted PRs, with 53 total integrated contributions including two cherry-picked fixes. Selected merged PRs include OAuth hardening ([#120](https://github.com/vxcontrol/pentagi/pull/120), [#125](https://github.com/vxcontrol/pentagi/pull/125), [#127](https://github.com/vxcontrol/pentagi/pull/127), [#260](https://github.com/vxcontrol/pentagi/pull/260)), runtime and reliability fixes ([#150](https://github.com/vxcontrol/pentagi/pull/150), [#151](https://github.com/vxcontrol/pentagi/pull/151), [#152](https://github.com/vxcontrol/pentagi/pull/152), [#178](https://github.com/vxcontrol/pentagi/pull/178), [#179](https://github.com/vxcontrol/pentagi/pull/179), [#261](https://github.com/vxcontrol/pentagi/pull/261)), CA private key cleanup ([#168](https://github.com/vxcontrol/pentagi/pull/168)), Docker Compose and installer improvements ([#243](https://github.com/vxcontrol/pentagi/pull/243), [#265](https://github.com/vxcontrol/pentagi/pull/265)), flow-scoped file uploads ([#272](https://github.com/vxcontrol/pentagi/pull/272)), operator docs and RFCs ([#262](https://github.com/vxcontrol/pentagi/pull/262), [#264](https://github.com/vxcontrol/pentagi/pull/264), [#266](https://github.com/vxcontrol/pentagi/pull/266)-[#267](https://github.com/vxcontrol/pentagi/pull/267), [#269](https://github.com/vxcontrol/pentagi/pull/269)-[#270](https://github.com/vxcontrol/pentagi/pull/270), [#275](https://github.com/vxcontrol/pentagi/pull/275)-[#278](https://github.com/vxcontrol/pentagi/pull/278), [#292](https://github.com/vxcontrol/pentagi/pull/292)-[#294](https://github.com/vxcontrol/pentagi/pull/294)), and test coverage across search tools, config, terminal, providers, graph/server context, schema validation, Langfuse, and Graphiti ([#153](https://github.com/vxcontrol/pentagi/pull/153), [#170](https://github.com/vxcontrol/pentagi/pull/170)-[#172](https://github.com/vxcontrol/pentagi/pull/172), [#189](https://github.com/vxcontrol/pentagi/pull/189), [#199](https://github.com/vxcontrol/pentagi/pull/199)-[#202](https://github.com/vxcontrol/pentagi/pull/202), [#213](https://github.com/vxcontrol/pentagi/pull/213)-[#214](https://github.com/vxcontrol/pentagi/pull/214), [#230](https://github.com/vxcontrol/pentagi/pull/230)-[#244](https://github.com/vxcontrol/pentagi/pull/244)). | Go, TypeScript, GraphQL |
-| [Trivy](https://github.com/aquasecurity/trivy) | 33.8K+ | Container and IaC vulnerability scanner, test coverage contributions | Go |
+| [PentAGI](https://github.com/vxcontrol/pentagi) | 15K+ | Contributor, not owner. Selected merged PRs include OAuth hardening ([#120](https://github.com/vxcontrol/pentagi/pull/120), [#125](https://github.com/vxcontrol/pentagi/pull/125), [#127](https://github.com/vxcontrol/pentagi/pull/127)), runtime and reliability fixes ([#150](https://github.com/vxcontrol/pentagi/pull/150), [#151](https://github.com/vxcontrol/pentagi/pull/151), [#152](https://github.com/vxcontrol/pentagi/pull/152), [#178](https://github.com/vxcontrol/pentagi/pull/178), [#179](https://github.com/vxcontrol/pentagi/pull/179)), CA private key cleanup ([#168](https://github.com/vxcontrol/pentagi/pull/168)), Docker Compose health checks ([#243](https://github.com/vxcontrol/pentagi/pull/243)), and test coverage across search tools, config, terminal, providers, graph/server context, schema validation, Langfuse, and Graphiti ([#153](https://github.com/vxcontrol/pentagi/pull/153), [#170](https://github.com/vxcontrol/pentagi/pull/170)-[#172](https://github.com/vxcontrol/pentagi/pull/172), [#189](https://github.com/vxcontrol/pentagi/pull/189), [#199](https://github.com/vxcontrol/pentagi/pull/199)-[#202](https://github.com/vxcontrol/pentagi/pull/202), [#213](https://github.com/vxcontrol/pentagi/pull/213)-[#214](https://github.com/vxcontrol/pentagi/pull/214), [#230](https://github.com/vxcontrol/pentagi/pull/230)-[#244](https://github.com/vxcontrol/pentagi/pull/244)). | Go, TypeScript, GraphQL |
 | [Strix](https://github.com/usestrix/strix) | 21.1K+ | Reconnaissance skill docs, Discord badge fix, Windows compatibility, bug triage | Python, Docker, LLM |
-
-### Recent PentAGI Contribution Updates
-
-Latest verified PentAGI status: 59 merged PRs across 74 submitted PRs, plus 2 cherry-picked fixes, for 61 integrated contributions total. Recent merged highlights include:
-
-- [#306](https://github.com/vxcontrol/pentagi/pull/306) -- proposed a persistent flow queue and completion-webhook RFC aligned with maintainer feedback on visible, restart-safe flow control.
-- [#307](https://github.com/vxcontrol/pentagi/pull/307) -- proposed an MCP client integration RFC for connecting PentAGI to external security tools without adding premature runtime scope.
-- [#317](https://github.com/vxcontrol/pentagi/pull/317) -- updated DeepSeek defaults to V4 model names, including current metadata, pricing, and thinking-mode semantics.
-- [#318](https://github.com/vxcontrol/pentagi/pull/318) -- clarified current Vertex AI / Anthropic configuration options and safe custom-gateway guidance.
 
 ---
 
@@ -80,7 +57,7 @@ Latest verified PentAGI status: 59 merged PRs across 74 submitted PRs, plus 2 ch
 
 | Degree | Institution | Status |
 |--------|-------------|--------|
-| MS Cybersecurity | Georgia Institute of Technology | Expected 2026 |
+| MS Cybersecurity | Georgia Institute of Technology | Coursework expected Summer 2026; graduation audit in progress; December 2026 commencement planned |
 
 ---
 
