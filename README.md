@@ -11,26 +11,27 @@
 
 I build production-oriented cloud platforms and policy-bounded AI security systems: Kubernetes platforms, CI/CD automation, observability, security guardrails, and secure model delegation.
 
-- Production platform engineering: built and improved Kubernetes-based deployment platforms, CI/CD pipelines, observability, and security automation for production workloads
-- Primary private research project: Secure Model Delegation -- a CS6727 practicum and paper project for policy-bounded local-to-cloud LLM fallback, target-specific disclosure policy, sanitization, routing, response verification, and audit logging
+- Production platform engineering: built and improved Kubernetes-based deployment platforms, CI/CD pipelines, observability, and security automation for production workloads. See [Production Kubernetes DevOps Platform](https://github.com/mason5052/production-kubernetes-devops-platform).
+- AI security research: Secure Model Delegation -- policy-bounded local-to-cloud LLM fallback with target-specific disclosure policy, sanitization, routing, response verification, and audit logging
 - Contributing to: [PentAGI](https://github.com/vxcontrol/pentagi) -- contributor, not owner. Selected merged PRs across OAuth hardening, runtime reliability, Docker Compose health checks, and broad test coverage for core packages
 - Contributing to: [Strix](https://github.com/usestrix/strix) (21.1K+ stars) -- AI pentesting agents, reconnaissance skill docs and bug triage
 
 ---
 
-## Featured Project
+## Featured Projects
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| Secure Model Delegation (private) | Policy-bounded controller for local/private-to-cloud LLM fallback using synthetic enterprise requests. Applies hard disclosure policy before delegation, sanitizes denied spans, captures delegated payloads, and evaluates leakage, routing accuracy, and utility. | Python, FastAPI, YAML policy, synthetic benchmarks |
+| [Production Kubernetes DevOps Platform](https://github.com/mason5052/production-kubernetes-devops-platform) | Public-safe production DevOps case study covering self-managed Kubernetes, AWS infrastructure, Terraform, GitHub Actions, ArgoCD, Docker, observability, IAM hardening, WAF/security controls, incident response, and cost optimization. | Kubernetes, AWS, Terraform, GitHub Actions, ArgoCD, Docker, Prometheus, Grafana |
+| Secure Model Delegation | Policy-bounded controller for local/private-to-cloud LLM fallback using synthetic enterprise requests. Applies hard disclosure policy before delegation, sanitizes denied spans, captures delegated payloads, and evaluates leakage, routing accuracy, and utility. | Python, FastAPI, YAML policy, synthetic benchmarks |
 
 ---
 
 ## Research Focus
 
-Secure Model Delegation is my primary Georgia Tech CS6727 practicum, prototype, and planned paper project. This is the research line I am actively developing: how a trusted local or private AI system can delegate selected text requests to a less-trusted cloud LLM while enforcing target-specific confidentiality policy.
+Secure Model Delegation is my current AI security research focus: how a trusted local or private AI system can safely delegate selected text requests to a less-trusted cloud LLM while enforcing target-specific confidentiality policy.
 
-The project repository is private while the research is still maturing, but it is the source of my formal model, threat model, policy matrix, synthetic benchmark cases, Python gateway prototype, local web control panel, audit logging, leakage evaluation harness, and paper draft. I plan to use this project as the foundation for future academic submission or public release when it is ready.
+The work centers on threat modeling, disclosure-policy design, request sanitization, routing controls, response verification, audit logging, and leakage/utility evaluation with synthetic enterprise scenarios.
 
 ---
 
