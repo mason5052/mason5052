@@ -12,7 +12,7 @@
 I build production-oriented cloud platforms and policy-bounded AI security systems: Kubernetes platforms, CI/CD automation, observability, security guardrails, and secure model delegation.
 
 - Production platform engineering: built and improved cloud and Kubernetes platform capabilities, CI/CD pipelines, observability, and security automation for production workloads. See [Production DevOps Portfolio: Cloud Platform and DevSecOps Engineering](https://github.com/mason5052/production-kubernetes-devops-platform).
-- AI security research: Secure Model Delegation -- policy-bounded local-to-cloud LLM fallback with target-specific disclosure policy, sanitization, routing, response verification, and audit logging
+- AI security research: [Secure Model Delegation](https://github.com/mason5052/secure-model-delegation) -- policy-bounded local-to-cloud LLM fallback with target-specific disclosure policy, sanitization, routing, response verification, and audit logging
 - Contributing to: [PentAGI](https://github.com/vxcontrol/pentagi) -- contributor, not owner. Selected merged PRs across OAuth hardening, runtime reliability, Docker Compose health checks, and broad test coverage for core packages
 - Contributing to: [Strix](https://github.com/usestrix/strix) (21.1K+ stars) -- AI pentesting agents, reconnaissance skill docs and bug triage
 
@@ -23,7 +23,7 @@ I build production-oriented cloud platforms and policy-bounded AI security syste
 | Project | Description | Stack |
 |---------|-------------|-------|
 | [Production DevOps Portfolio: Cloud Platform and DevSecOps Engineering](https://github.com/mason5052/production-kubernetes-devops-platform) | Production DevOps portfolio covering AWS infrastructure, Terraform, Kubernetes platform operations, CI/CD, GitOps delivery, observability, IAM hardening, WAF/security controls, incident response, and cost optimization. | AWS, Kubernetes, Terraform, GitHub Actions, ArgoCD, Docker, Prometheus, Grafana |
-| Secure Model Delegation | Policy-bounded controller for local/private-to-cloud LLM fallback using synthetic enterprise requests. Applies hard disclosure policy before delegation, sanitizes denied spans, captures delegated payloads, and evaluates leakage, routing accuracy, and utility. | Python, FastAPI, YAML policy, synthetic benchmarks |
+| [Secure Model Delegation](https://github.com/mason5052/secure-model-delegation) | Public AI security research prototype for local/private-to-cloud LLM fallback using synthetic enterprise requests. Applies hard disclosure policy before delegation, sanitizes denied spans, captures delegated payloads, and evaluates leakage, routing accuracy, utility, latency, and adversarial cases. | Python, FastAPI, YAML policy, synthetic benchmarks |
 
 ---
 
@@ -32,6 +32,8 @@ I build production-oriented cloud platforms and policy-bounded AI security syste
 Secure Model Delegation is my current AI security research focus: how a trusted local or private AI system can safely delegate selected text requests to a less-trusted cloud LLM while enforcing target-specific confidentiality policy.
 
 The work centers on threat modeling, disclosure-policy design, request sanitization, routing controls, response verification, audit logging, and leakage/utility evaluation with synthetic enterprise scenarios.
+
+Public prototype: [mason5052/secure-model-delegation](https://github.com/mason5052/secure-model-delegation). The benchmark and examples are synthetic and are intended for reproducible evaluation, not production data handling claims.
 
 ---
 
